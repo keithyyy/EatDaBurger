@@ -1,0 +1,16 @@
+.container {
+    justify-content: center;
+}
+
+.jumbotron {
+    background-image: url("../img/eatburgerpic.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    margin-top: 10px
+}
+
+img {
+    height: 50%;
+    justify-content: center;
+}
