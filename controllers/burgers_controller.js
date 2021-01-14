@@ -17,7 +17,7 @@ router.get('/', (req,res) => {
 })
 
 router.post('/api/burgers', (req,res) => {
-    cat.create(['burger_name', 'devoured'], [req.body.name, req.body.devoured], (result) => {
+    burger.insertOne(['burger_name', 'devoured'], [req.body.name, req.body.devoured], (result) => {
         // send back id of the new burger
         res.json({ id: result.insertId });
     })
